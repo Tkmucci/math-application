@@ -47,11 +47,11 @@ public class MathApp {
         System.out.println("The absolute value of " + absoluteValueOf + " is: " + absoluteValue);
 
 
-        //Question 7: random number between 1 and 10
+        //Question 7: random number between 0 and 1
         double randomNumber = Math.random();
-        System.out.println("The random number between 1 and 10 is: " + randomNumber);
+        System.out.println("The random number between 0 and 1 is: " + randomNumber);
 
-        // Question 7: random number between 0 and 1
+        // Question 7: random number between 1 and 10
         int randomNum = (int)(Math.random() * 10) + 1;
         System.out.println("The random number between 1 and 10 is: " + randomNum);
 
