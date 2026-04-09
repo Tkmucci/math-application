@@ -27,16 +27,16 @@ public class MathApp {
 
 
         //Question 4: Square root of 5.0
-        double number = 5.0;
+        double number = 5.00;
         double squareRoot = Math.sqrt(number);
         System.out.println("The square root of " + number + " is: " + String.format("%.2f", squareRoot));
 
 
         //Question 5: Distance between the points(5,10) and (85,50)
-        double x1 = 5.0;
-        double y1 = 10.0;
-        double x2 = 85.0;
-        double y2 = 50.0;
+        double x1 = 5.00;
+        double y1 = 10.00;
+        double x2 = 85.00;
+        double y2 = 50.00;
         double distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
         System.out.println("The distance between the points is: " + String.format("%.2f", distance));
 
