@@ -6,8 +6,8 @@ public class MathApp {
         //Exercise 3: Step 1
 
         //Question 1: Salary for Bob and Gary
-        double bobSalary = 320000.00;
-        double garySalary = 740000.00;
+        double bobSalary = 325678.99;
+        double garySalary = 747321.89;
 
         double highestSalary = Math.max(bobSalary, garySalary);
         System.out.println("The highest salary is: $" + String.format("%.2f", highestSalary));
@@ -23,7 +23,7 @@ public class MathApp {
         //Question 3: Area of a circle with radius 7.25
         double radius = 7.25;
         double area = Math.PI * Math.pow(radius, 2);
-        System.out.println("The area of the circle is: " + String.format("%.2f", area));
+        System.out.println("The area of the circle is: " + String.format("%.2f", area) + " square meters");
 
 
         //Question 4: Square root of 5.0
@@ -59,8 +59,8 @@ public class MathApp {
         int secondsIn24Days = minutesIn24Days * 60;
         int milliSecondsIn24Days = secondsIn24Days * 1000;
 
-        System.out.println("The number of minutes in " + days + " days is: " + minutesIn24Days);
-        System.out.println("The number of milliseconds in " + days + " days is: " + milliSecondsIn24Days);
+        System.out.println("The number of minutes in " + days + " days is: " + minutesIn24Days + " minutes");
+        System.out.println("The number of milliseconds in " + days + " days is: " + milliSecondsIn24Days + " milliseconds");
 
 
 
